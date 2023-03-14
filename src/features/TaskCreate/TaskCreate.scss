@@ -1,0 +1,23 @@
+.taskCreate {
+    padding: 1rem;
+}
+
+.taskCreateHeader {
+    margin-bottom: 1.5rem;
+}
+
+.buttonRow {
+    display: flex;
+    gap: 1rem;
+  }
+  
+.formItems {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+  
+.formItem {
+    @extend .formItems;
+    gap: 0.35rem;
+}

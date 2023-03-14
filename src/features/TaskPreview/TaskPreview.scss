@@ -1,0 +1,32 @@
+
+
+.previewContent {
+    & > * + * {
+        margin-top: 1rem;
+    };
+
+    label {
+        font-weight: 700;
+    }
+
+    .previewItem {
+        display: flex;
+        flex-direction: column;
+
+        .MuiOutlinedInput-input {
+            padding: 0;
+        }
+    
+        .MuiOutlinedInput-notchedOutline {
+            border: 0;
+        }
+    }
+
+    
+}
+
+.previewHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
